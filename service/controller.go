@@ -102,3 +102,9 @@ func (s *service) ControllerExpandVolume(
 	return nil, nil
 }
 
+func (s *service) ControllerGetVolume(ctx context.Context,
+	req *csi.ControllerGetVolumeRequest) (*csi.ControllerGetVolumeResponse, error) {
+
+	return nil, nil
+}
+
